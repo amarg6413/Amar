@@ -8,17 +8,48 @@ body{
     color: white;
     font-family: 'Langar', cursive;
     font-size: 15px;
+    overflow: hidden;
+}
+.navbar ul{
+    /* border: 1px solid white; */
+    position: absolute;
+    display: inline;
+    margin: 0px;
+    width: 95%;
+    height: auto;
 }
 .navbar li{
+    /* border: 1px solid white; */
     display: inline-block;
     padding: 10px;
-    margin-left: 17%;
+    margin-inline: 126px;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
 }
-#iama{
-    width: 14%;
-    height: 200px;
+h1{
+    position: absolute;
+    font-size:59px;
+    font-weight: bold;
+    top: 30%;
+    right: 10%;
+}
+.picture{
+    border: 1px solid white;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    width: 27%;
+    height: 50%;
+}
+.picture #iama{
+    width: 100%;
+    height: 100%;
     border-radius: 50000px;
+}
+.tagline{
+    position: absolute;
+    top: 75%;
+    left: 19%;
 }
