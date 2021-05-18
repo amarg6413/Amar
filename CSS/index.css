@@ -8,5 +8,17 @@ body{
     color: white;
     font-family: 'Langar', cursive;
     font-size: 15px;
-    
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 17%;
+}
+a{
+    text-decoration: none;
+}
+#iama{
+    width: 14%;
+    height: 200px;
+    border-radius: 50000px;
 }
