@@ -36,7 +36,7 @@ h1{
     right: 10%;
 }
 .picture{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     position: absolute;
     top: 20%;
     left: 14%;
