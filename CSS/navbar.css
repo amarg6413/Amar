@@ -1,0 +1,26 @@
+.header{
+    background: black;
+    position: relative;
+}
+.navbar ul{
+    /* border: 1px solid white; */
+    position: absolute;
+    display: inline;
+    margin: 0px;
+    width: 95%;
+    height: auto;
+}
+.navbar li{
+    /* border: 1px solid white; */
+    display: inline-block;
+    padding: 10px;
+    margin-inline: 90px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 20px;   
+}

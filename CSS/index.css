@@ -10,27 +10,12 @@ body{
     font-size: 15px;
     overflow: hidden;
 }
-.navbar ul{
-    /* border: 1px solid white; */
-    position: absolute;
-    display: inline;
-    margin: 0px;
-    width: 95%;
-    height: auto;
-}
-.navbar li{
-    /* border: 1px solid white; */
-    display: inline-block;
-    padding: 10px;
-    margin-inline: 100px;
-    font-weight: bold;
-}
 a{
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
-    
+    font-size: 20px;   
 }
 h1{
     position: absolute;
@@ -48,9 +33,14 @@ h1{
     height: 50%;
 }
 .picture #iama{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
     width: 100%;
     height: 100%;
     border-radius: 50000px;
+}
+.picture:hover{
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .tagline{
     position: absolute;
