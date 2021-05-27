@@ -1,0 +1,12 @@
+.projects{
+    position: relative;
+    top: 100px;
+}
+.projects div{
+    display: inline-block;
+    width: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    height: 50px;
+    background-color: red;
+}
