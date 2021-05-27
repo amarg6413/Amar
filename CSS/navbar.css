@@ -1,14 +1,18 @@
 .header{
-    background: black;
-    position: relative;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    color: white;
 }
 .navbar ul{
     /* border: 1px solid white; */
     position: absolute;
     display: inline;
     margin: 0px;
-    width: 95%;
+    width: 100%;
     height: auto;
+    background-color:black;
 }
 .navbar li{
     /* border: 1px solid white; */
@@ -19,6 +23,7 @@
 }
 a{
     text-decoration: none;
+    color: white;
 }
 a:hover{
     text-decoration: underline;
