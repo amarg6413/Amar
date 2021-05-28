@@ -1,0 +1,14 @@
+.handler{
+    position: relative;
+    top: 150px;
+}
+.handler div{
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    margin-left: 10%;
+}
+.handler img{
+    width: 100px;
+    height: 100px;
+}
