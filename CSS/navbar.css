@@ -22,11 +22,11 @@
     margin-inline: 90px;
     font-weight: bold;
 }
-a{
+.navbar a{
     text-decoration: none;
     color: white;
 }
-a:hover{
+.navbar a:hover{
     text-decoration: underline;
     font-size: 20px;   
 }
